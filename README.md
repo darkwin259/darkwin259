@@ -1,60 +1,64 @@
 # 🧠 Profile
-**Embedded Engineer** | Specialized in High-Performance Systems, Hardware Acceleration & Signal Processing.
+**Embedded Engineer** | Chuyên gia Hệ thống Hiệu năng cao, Tăng tốc Phần cứng & Xử lý Tín hiệu.
 
-I am a researcher and engineer focused on the intersection of **Real-time Control Systems** and **High-speed Hardware Design**. My work spans from low-level register manipulation to complex FPGA-based radar signal tracking.
+Tôi là một kỹ sư nghiên cứu tập trung vào sự giao thoa giữa **Hệ thống Điều khiển thời gian thực** và **Thiết kế Phần cứng tốc độ cao**. Kinh nghiệm của tôi trải dài từ lập trình firmware bare-metal cấp thấp đến các hệ thống bám bắt mục tiêu radar phức tạp trên SoC FPGA.
 
-*   **Current Focus:** Developing hardware-accelerated algorithms for radar range tracking and optoelectronic auto-focusing systems.
-*   **Philosophy:** *Stay close to the silicon. Abstract only when performance allows.*
+*   **Lĩnh vực hiện tại:** Phát triển thuật toán bám bám dải đo radar và hệ thống tự động lấy nét quang điện tử.
+*   **Triết lý:** *Tiệm cận phần cứng nhất có thể. Chỉ trừu tượng hóa khi hiệu năng cho phép.*
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Dự án tiêu biểu
 
-### 📡 [Radar Range Tracking System on FPGA SoC](https://github.com/yourusername/Design-and-Implementation-of-an-Automatic-Radar-Range-Tracking-System-ed-on-FPGA-SoC)
-*Implementation of high-speed radar signal processing logic.*
-*   **Tech:** VHDL, Zynq-7000 (Z-turn Board), Vivado.
-*   **Key Achievement:** Designed and implemented real-time tracking loops directly on FPGA logic, minimizing latency for critical defense applications.
+### ⚡ [Ultrasonic Generator Controller - STM32](https://github.com/yourusername/stm32-ultrasonic-generator)
+*Bộ điều khiển máy phát siêu âm công nghiệp với khả năng bám điểm cộng hưởng.*
+*   **Công nghệ:** STM32G070 (Cortex-M0+), C (Bare-metal), Kalman Filter, Nextion HMI.
+*   **Điểm nhấn:** 
+    *   **Resonance Tracking:** Triển khai thuật toán **Peak Detection** để khóa tần số cộng hưởng tối ưu của thạch anh.
+    *   **Xử lý tín hiệu:** Tích hợp bộ lọc **Kalman 1D** để loại bỏ nhiễu ADC trong môi trường công suất cao.
+    *   **Điều khiển thời gian thực:** Hiệu chỉnh tần số cực mịn qua thanh ghi **ARR Register**, đảm bảo phản ứng tức thời.
+    *   **An toàn hệ thống:** Cấu hình Dead-time phần cứng và giới hạn Duty Cycle (48%) để bảo vệ tầng công suất MOSFET/IGBT.
+
+### 📡 [Radar Range Tracking System on FPGA SoC](https://github.com/yourusername/Design-and-Implementation-of-an-Automatic-Radar-Range-Tracking-System-on-FPGA-SoC)
+*Hệ thống bám bắt cự ly mục tiêu Radar trên nền tảng FPGA SoC.*
+*   **Công nghệ:** VHDL, Zynq-7000 (Z-turn Board), Vivado.
+*   **Thành tựu:** Thiết kế các vòng lặp bám bắt thời gian thực trực tiếp trên logic FPGA, tối thiểu hóa độ trễ cho các ứng dụng phòng không.
 
 ### 📷 [Adaptive Multi-metric Fusion for Auto-Focus](https://github.com/yourusername/edge-ai)
-*Research and development of an automatic focusing system for cameras on optoelectronic systems.*
-*   **Tech:** Python, OpenCV, Embedded Vision.
-*   **Key Achievement:** Developed a fusion algorithm to optimize focus metrics for image processing.
-
-### 🔊 [Ultrasonic Distance Measurement - STM32 Bare-metal](https://github.com/yourusername/stm32-baremetal)
-*Precision distance sensing using low-level driver development.*
-*   **Tech:** C, STM32, Bare-metal (Direct Register Manipulation).
-*   **Key Achievement:** Optimized signal processing from ultrasonic sensors without HAL/LL abstractions to ensure minimal execution latency and memory footprint.
+*Nghiên cứu hệ thống tự động lấy nét cho camera trên hệ quang điện tử.*
+*   **Công nghệ:** Python, OpenCV, Embedded Vision.
+*   **Thành tựu:** Phát triển thuật toán hợp nhất đa chỉ số để tối ưu hóa khả năng lấy nét trong nhiều điều kiện ánh sáng phức tạp.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Kỹ năng chuyên môn
 
-| Category | Tools & Technologies |
+| Danh mục | Công nghệ & Công cụ |
 | :--- | :--- |
-| **Languages** | VHDL (Preferred), C (Bare-metal), Python |
+| **Ngôn ngữ** | VHDL (Ưu tiên), C (Bare-metal), Python |
 | **FPGA / SoC** | Xilinx Zynq-7000, Spartan-6, Vivado, Z-turn Board |
-| **Embedded MCU** | STM32, Raspberry Pi 4B (SSH/NoMachine remote access) |
-| **EDA / PCB** | Altium Designer 24 (Custom Breakout Board Design) |
-| **Hardware** | Intel i5-14500H, 16GB RAM, RTX 3050 Workstation |
+| **Vi điều khiển** | STM32 (Dòng G0/F4), UART DMA, PWM Control |
+| **Thuật toán** | Bộ lọc Kalman, Điều khiển PID, Peak Detection, State Machine |
+| **Thiết kế PCB** | Altium Designer 24 (Thiết kế Breakout & Layout chuyên nghiệp) |
 
 ---
 
-## ⚡ System Mindset
-- **Stay close to hardware:** Understanding the physics before the code.
-- **Measure, don't guess:** Optimization requires precision profiling.
-- **Domain Focus:** Specialized in guided anti-aircraft missiles and radar control systems.
+## ⚡ Tư duy hệ thống
+- **Hardware-Software Co-design:** Tối ưu hóa nút thắt cổ chai bằng cách đẩy các tác vụ nặng sang logic FPGA.
+- **Độ tin cậy:** Thiết kế hệ thống chịu nhiễu tốt trong môi trường công nghiệp và quân sự.
+- **Lĩnh vực chuyên sâu:** Tên lửa phòng không, điều khiển Radar và tự động hóa công suất cao.
 
 ---
 
-## 🌐 Contact
+## 🌐 Liên hệ
 📫 **Email:** hngttuan@gmail.com
 📸 **Instagram:** [h.a.t.t.l.1](https://instagram.com/h.a.t.t.l.1)
-📍 **Location:** Vinh Yen, Vinh Phuc, Vietnam
+📍 **Địa điểm:** Hà nội, Việt Nam
 
 ---
 
 ## 🧬 Cyberpunk Mode
 > Booting...
-> Loading firmware...
+> Loading firmware... [Resonance Found: 20.05kHz]
 > Optimizing cycles...
 > Ready to build real-world systems.
