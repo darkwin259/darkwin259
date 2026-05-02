@@ -1,10 +1,9 @@
 # 🧠 Profile
 **Embedded Engineer** | Chuyên gia Hệ thống Hiệu năng cao, Tăng tốc Phần cứng & Xử lý Tín hiệu.
 
-Tôi là một kỹ sư nghiên cứu tập trung vào sự giao thoa giữa **Hệ thống Điều khiển thời gian thực** và **Thiết kế Phần cứng tốc độ cao**. Kinh nghiệm của tôi trải dài từ lập trình firmware bare-metal cấp thấp đến các hệ thống bám bắt mục tiêu radar phức tạp trên SoC FPGA.
-
-*   **Lĩnh vực hiện tại:** Phát triển thuật toán bám bám dải đo radar và hệ thống tự động lấy nét quang điện tử.
-*   **Triết lý:** *Tiệm cận phần cứng nhất có thể. Chỉ trừu tượng hóa khi hiệu năng cho phép.*
+Tôi là một kỹ sư à không kĩ sư rởm 
+*   **Lĩnh vực hiện tại:** FPGASoC&Embedded System.
+*   **Triết lý:** *AI Vibecoding in Embedded System.*
 
 ---
 
@@ -15,14 +14,14 @@ Tôi là một kỹ sư nghiên cứu tập trung vào sự giao thoa giữa **H
 *   **Công nghệ:** STM32G070 (Cortex-M0+), C (Bare-metal), Kalman Filter, Nextion HMI.
 *   **Điểm nhấn:** 
     *   **Resonance Tracking:** Triển khai thuật toán **Peak Detection** để khóa tần số cộng hưởng tối ưu của thạch anh.
-    *   **Xử lý tín hiệu:** Tích hợp bộ lọc **Kalman 1D** để loại bỏ nhiễu ADC trong môi trường công suất cao.
-    *   **Điều khiển thời gian thực:** Hiệu chỉnh tần số cực mịn qua thanh ghi **ARR Register**, đảm bảo phản ứng tức thời.
-    *   **An toàn hệ thống:** Cấu hình Dead-time phần cứng và giới hạn Duty Cycle (48%) để bảo vệ tầng công suất MOSFET/IGBT.
+    *   **Xử lý tín hiệu:** Tích hợp bộ lọc **Kalman** để loại bỏ nhiễu ADC trong môi trường công suất cao.
+    *   **Điều khiển thời gian thực:** Hiệu chỉnh tần số cực mịn đảm bảo phản ứng tức thời.
+    *   **An toàn hệ thống:** Cấu hình Dead-time phần cứng và giới hạn Duty Cycle để bảo vệ tầng công suất MOSFET/IGBT.
 
 ### 📡 [Radar Range Tracking System on FPGA SoC](https://github.com/yourusername/Design-and-Implementation-of-an-Automatic-Radar-Range-Tracking-System-on-FPGA-SoC)
 *Hệ thống bám bắt cự ly mục tiêu Radar trên nền tảng FPGA SoC.*
 *   **Công nghệ:** VHDL, Zynq-7000 (Z-turn Board), Vivado.
-*   **Thành tựu:** Thiết kế các vòng lặp bám bắt thời gian thực trực tiếp trên logic FPGA, tối thiểu hóa độ trễ cho các ứng dụng phòng không.
+*   **Thành tựu:** Thiết kế các hệ bám cự ly đài điều khiển TL.
 
 ### 📷 [Adaptive Multi-metric Fusion for Auto-Focus](https://github.com/yourusername/edge-ai)
 *Nghiên cứu hệ thống tự động lấy nét cho camera trên hệ quang điện tử.*
@@ -35,18 +34,18 @@ Tôi là một kỹ sư nghiên cứu tập trung vào sự giao thoa giữa **H
 
 | Danh mục | Công nghệ & Công cụ |
 | :--- | :--- |
-| **Ngôn ngữ** | VHDL (Ưu tiên), C (Bare-metal), Python |
-| **FPGA / SoC** | Xilinx Zynq-7000, Spartan-6, Vivado, Z-turn Board |
-| **Vi điều khiển** | STM32 (Dòng G0/F4), UART DMA, PWM Control |
+| **Ngôn ngữ** | VHDL (Ưu tiên), C (Bare-metal), Python | 
+| **FPGA / SoC** | Xilinx Zynq-7000, Vivado, Z-turn Board |
+| **Vi điều khiển** | STM32 (Dòng G0/F4/F1), UART DMA, PWM Control |
 | **Thuật toán** | Bộ lọc Kalman, Điều khiển PID, Peak Detection, State Machine |
 | **Thiết kế PCB** | Altium Designer 24 (Thiết kế Breakout & Layout chuyên nghiệp) |
 
 ---
 
 ## ⚡ Tư duy hệ thống
-- **Hardware-Software Co-design:** Tối ưu hóa nút thắt cổ chai bằng cách đẩy các tác vụ nặng sang logic FPGA.
-- **Độ tin cậy:** Thiết kế hệ thống chịu nhiễu tốt trong môi trường công nghiệp và quân sự.
-- **Lĩnh vực chuyên sâu:** Tên lửa phòng không, điều khiển Radar và tự động hóa công suất cao.
+- **Hardware-Software Co-design:** Có khả năng kết hợp tư duy phần cứng , phần mềm, định hướng AI phát triển các hệ thống phần cứng (Vibe Coding in Embedded System).
+- **Độ tin cậy:** Thiết kế hệ thống đảm bảo độ tin cậy.
+- **Lĩnh vực chuyên sâu:** Tên lửa phòng không, điều khiển và tự động hóa.
 
 ---
 
