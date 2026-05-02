@@ -9,7 +9,7 @@ Tôi là một kỹ sư à không kĩ sư rởm
 
 ## 🚀 Dự án tiêu biểu
 
-### ⚡ [Ultrasonic Generator Controller - STM32](https://github.com/yourusername/stm32-ultrasonic-generator)
+### ⚡ [Ultrasonic Generator Controller - STM32](https://github.com/darkwin259/Ultrasonic_2-5-2026.git)
 *Bộ điều khiển máy phát siêu âm công nghiệp với khả năng bám điểm cộng hưởng.*
 *   **Công nghệ:** STM32G070 (Cortex-M0+), C (Bare-metal), Kalman Filter, Nextion HMI.
 *   **Điểm nhấn:** 
@@ -18,12 +18,12 @@ Tôi là một kỹ sư à không kĩ sư rởm
     *   **Điều khiển thời gian thực:** Hiệu chỉnh tần số cực mịn đảm bảo phản ứng tức thời.
     *   **An toàn hệ thống:** Cấu hình Dead-time phần cứng và giới hạn Duty Cycle để bảo vệ tầng công suất MOSFET/IGBT.
 
-### 📡 [Radar Range Tracking System on FPGA SoC](https://github.com/yourusername/Design-and-Implementation-of-an-Automatic-Radar-Range-Tracking-System-on-FPGA-SoC)
+### 📡 [Radar Range Tracking System on FPGA SoC](https://github.com/darkwin259/Design-and-Implementation-of-an-Automatic-Radar-Range-Tracking-System-on-FPGA-SoC.git)
 *Hệ thống bám bắt cự ly mục tiêu Radar trên nền tảng FPGA SoC.*
 *   **Công nghệ:** VHDL, Zynq-7000 (Z-turn Board), Vivado.
 *   **Thành tựu:** Thiết kế các hệ bám cự ly đài điều khiển TL.
 
-### 📷 [Adaptive Multi-metric Fusion for Auto-Focus](https://github.com/yourusername/edge-ai)
+### 📷 [Adaptive Multi-metric Fusion for Auto-Focus](https://github.com/darkwin259/AutoFocus_NCKH2025.git)
 *Nghiên cứu hệ thống tự động lấy nét cho camera trên hệ quang điện tử.*
 *   **Công nghệ:** Python, OpenCV, Embedded Vision.
 *   **Thành tựu:** Phát triển thuật toán hợp nhất đa chỉ số để tối ưu hóa khả năng lấy nét trong nhiều điều kiện ánh sáng phức tạp.
