@@ -36,9 +36,9 @@ Tôi là một kỹ sư à không kĩ sư rởm
 | :--- | :--- |
 | **Ngôn ngữ** | VHDL (Ưu tiên), C (Bare-metal), Python | 
 | **FPGA / SoC** | Xilinx Zynq-7000, Vivado, Z-turn Board |
-| **Vi điều khiển** | STM32 (Dòng G0/F4/F1), UART DMA, PWM Control |
-| **Thuật toán** | Bộ lọc Kalman, Điều khiển PID, Peak Detection, State Machine |
-| **Thiết kế PCB** | Altium Designer 24 (Thiết kế Breakout & Layout chuyên nghiệp) |
+| **Vi điều khiển** | STM32 (Dòng G0/F4/F1), Arduino, ESP32 |
+| **Thuật toán** | Bộ lọc Kalman, Điều khiển PID, Peak Detection, State Machine, Adaptive Controller |
+| **Thiết kế PCB** | Altium Designer |
 
 ---
 
